@@ -1,11 +1,10 @@
 # user, just user
-USER := pcf-6
+USER := pcf-7
 # Version
-PBP_VERSION_NUMBER := 6
+PBP_VERSION_NUMBER := 7
 
 # Unofficial packages that I used from trees outside AOSP
 PRODUCT_PACKAGES += \
-    CMFileManager \
     Stk \
     Superuser \
     su 
