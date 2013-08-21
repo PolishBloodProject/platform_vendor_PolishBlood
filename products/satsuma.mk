@@ -4,9 +4,6 @@ $(call inherit-product-if-exists, device/semc/satsuma/full_satsuma.mk)
 # Inherit common device configuration for PolishBlood Project 
 $(call inherit-product, vendor/PolishBlood/common_PolishBlood.mk)
 
-# Add all AOSP ringtones(disable for more space on /system)
-$(call inherit-product, frameworks/base/data/sounds/AllAudio.mk)
-
 # Setup device specific product configuration.
 PRODUCT_NAME := PolishBlood_satsuma
 PRODUCT_BRAND := SEMC
